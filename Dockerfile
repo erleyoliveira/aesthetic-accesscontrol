@@ -2,7 +2,7 @@ FROM eclipse-temurin:25
 
 WORKDIR /opt/app
 
-COPY target/accesscontrol-0.0.1-SNAPSHOT.jar app.jar
+COPY target/accesscontrol-0.0.1.jar app.jar
 
 EXPOSE 8080
 
